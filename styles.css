@@ -92,13 +92,13 @@ body.dark-mode .container {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 30px;
 }
 
 /* Botão */
 button {
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     border: none;
@@ -120,7 +120,7 @@ button:hover {
 
 /* Modo escuro */
 body.dark-mode button {
-    background-color: #444;
+    background-color: #302f2f;
     color: #fff;
 }
 
@@ -134,4 +134,17 @@ body.dark-mode .social-icons a {
 
 body.dark-mode .social-icons a:hover {
     color: #e67e22;
+}
+
+.cartilha{
+    transition: transform 0.3s;
+}
+
+.cartilha:hover {
+    transform: scale(1.1);
+}
+
+.cartilha img {
+    width: 250px;
+    margin: 20px;
 }
