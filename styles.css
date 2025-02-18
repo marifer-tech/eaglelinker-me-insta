@@ -88,6 +88,12 @@ body.dark-mode .container {
     color: #0056b3;
 }
 
+.bi-eagle {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    color: inherit; /* Herda a cor dos outros ícones */
+    vertical-align: middle;
+}
+
 /* Centraliza o botão */
 .button-container {
     display: flex;
